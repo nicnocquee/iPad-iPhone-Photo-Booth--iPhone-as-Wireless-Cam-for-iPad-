@@ -849,6 +849,36 @@ c000000004CA0C3C50000000000001C83
 t1285604293
 s7299
 
+N/Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/MainWindow.xib
+c000000004C5BB0B700000000000047A3
+t1281077431
+s18339
+
+N/Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app
+t1286849944
+s408
+
+N/Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/Info.plist
+t1286816799
+s772
+
+N/Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/MainWindow.nib
+t1286814456
+s988
+
+N/Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/PkgInfo
+t1281079742
+s8
+
+N/Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/icon.png
+t1286816799
+s2411
+
+N/Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/icon.png
+c000000004CB34336000000000000084D
+t1286816566
+s2125
+
 N/Users/nico/Library/MobileDevice/Provisioning Profiles/3119B89E-E75A-475E-923C-A29A1EAE94D3.mobileprovision
 c000000004C3FF7160000000000001C00
 t1279260438
@@ -2539,6 +2569,9 @@ r0
 CCompileXIB /Users/engelene/Downloads/PhotoBooth/PhotoBooth/MainWindow.xib
 r0
 
+CCompileXIB /Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/MainWindow.xib
+r0
+
 CCompileXIB /Volumes/Data/Dropbox/Dropbox/Project/PhotoBooth/MainWindow.xib
 s305192589.187104
 e305192592.318725
@@ -2558,6 +2591,9 @@ oCouldn't open shared capabilities memory GSCapabilities (No such file or direct
 lSLF07#2@25"CompileXIB MainWindow.xib308507254#308507256#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#58"/Volumes/Data/Project/PhotoBooth/PhotoBooth/MainWindow.xib8636397760#560"    cd /Volumes/Data/Project/PhotoBooth/PhotoBooth    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Data/Project/PhotoBooth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/MainWindow.nib /Volumes/Data/Project/PhotoBooth/PhotoBooth/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
 
 CCopyPNGFile "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/icon.png" icon.png
+r0
+
+CCopyPNGFile /Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/icon.png icon.png
 r0
 
 CCopyPNGFile /Volumes/Data/Project/PhotoBooth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/icon.png icon.png
@@ -2777,6 +2813,9 @@ CProcessInfoPlistFile "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBooth/build/
 r0
 
 CProcessInfoPlistFile /Users/engelene/Downloads/PhotoBooth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/Info.plist PhotoBooth-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/Info.plist PhotoBooth-Info.plist
 r0
 
 CProcessInfoPlistFile /Volumes/Data/Dropbox/Dropbox/Project/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app/Info.plist PhotoBooth-Info.plist
@@ -3049,6 +3088,9 @@ r1
 xTouch
 x/Users/engelene/Downloads/PhotoBooth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app
 lSLF07#2@89"Touch /Users/engelene/Downloads/PhotoBooth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app306387224#306387224#0(0"0(0#0#0"8651327584#285"    cd /Users/engelene/Downloads/PhotoBooth/PhotoBooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/engelene/Downloads/PhotoBooth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app0#
+
+CTouch /Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app
+r0
 
 CTouch /Volumes/Data/Dropbox/Dropbox/Project/PhotoBooth/build/Debug-iphoneos/PhotoBooth.app
 s305312440.895225

@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -308,8 +310,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>03FBE75A126407140007EC41</string>
+										<string>03FBE77E12642FB40007EC41</string>
 										<key>history</key>
 										<array>
 											<string>0326DCE4120BDAB200CDC008</string>
@@ -342,7 +342,7 @@
 											<string>034326521232EE3200F72DB5</string>
 											<string>034326531232EE3200F72DB5</string>
 											<string>034326541232EE3200F72DB5</string>
-											<string>034326561232EE3200F72DB5</string>
+											<string>03FBE77D12642FB40007EC41</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -354,14 +354,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1051, 749}}</string>
+								<string>{{0, 0}, {1051, 747}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1178 385 1259 868 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>749pt</string>
+							<string>747pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -374,14 +374,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 754}, {1051, 73}}</string>
+								<string>{{0, 752}, {1051, 75}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1178 385 1259 868 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>73pt</string>
+							<string>75pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -400,9 +400,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>03FBE7571264070A0007EC41</string>
+				<string>03FBE77A12642BC80007EC41</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>03FBE7581264070A0007EC41</string>
+				<string>03FBE77B12642BC80007EC41</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -541,7 +541,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>038C67B8120969EB00E9D70B</string>
-		<string>/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBooth/PhotoBooth.xcodeproj</string>
+		<string>/Users/nico/Desktop/iPad-iPhone-Photo-Booth/PhotoBooth/PhotoBooth.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>1178 385 1259 868 0 0 2560 1418 </string>
@@ -621,7 +621,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>038C67B8120969EB00E9D70B</string>
-				<string>03FBE7591264070A0007EC41</string>
+				<string>03FBE77C12642BC80007EC41</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
