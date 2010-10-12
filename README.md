@@ -6,4 +6,4 @@ I used s7ftprequest to upload the photo taken by the iPhone to the FTP server. Y
 
 I released this source code not only so that anyone who wants to know how to make this kind of app can learn from it, but also so that I can learn from those who are kind enough to fix and make the code better. Hope it's useful!
 
-More info: http://www.nicnocquee.com/blog/2010/10/12/using-ipad-and-iphone-as-a-party-photo-booth/
+More info: (http://www.nicnocquee.com/blog/2010/10/12/using-ipad-and-iphone-as-a-party-photo-booth/)
