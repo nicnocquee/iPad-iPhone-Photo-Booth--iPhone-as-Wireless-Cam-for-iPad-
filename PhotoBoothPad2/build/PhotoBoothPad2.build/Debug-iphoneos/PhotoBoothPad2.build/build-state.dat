@@ -1,0 +1,1124 @@
+TPhotoBoothPad2
+v7
+r0
+t308509786.772835
+cCheck dependencies
+cCpResource build/Debug-iphoneos/PhotoBoothPad2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/Info.plist PhotoBoothPad2-Info.plist
+cCompileXIB /Volumes/Data/Dropbox/Project/PhotoBoothPad2/MainWindow.xib
+cCompileXIB /Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+cCopyPNGFile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/icon.png icon.png
+cProcessPCH /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch.gch PhotoBoothPad2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/main.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2AppDelegate.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2ViewController.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/BrowserViewController.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TCPServer.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PacketCategories.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyImageView.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PickerController.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/Circle.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyActivityIndicator.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2 normal armv7
+cGenerateDSYMFile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app.dSYM /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2
+cProcessProductPackaging "/Users/nicnocquee/Library/MobileDevice/Provisioning Profiles/90D00BB9-90C9-4368-9C9C-F4DCB9FFD815.mobileprovision" /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision
+cTouch /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent
+cCodeSign /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004C5A53C10000000000000110
+t1280988097
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+c000000004C06E99F00000000000001A7
+t1275521439
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+c000000004C06E99F00000000000001E5
+t1275521439
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h
+c000000004C0059C300000000000060BB
+t1275091395
+s24763
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C005A1C00000000003B4B70
+t1275091484
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C005A45000000000036A640
+t1275091525
+s3581504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C005A310000000000001355
+t1275091505
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNetServices.h
+c000000004C005A31000000000000445B
+t1275091505
+s17499
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C005C74000000000000007D
+t1275092084
+s125
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C005D9100000000002215A0
+t1275092369
+s2233760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C00642C000000000000098F
+t1275094060
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0064A60000000002703220
+t1275094182
+s40907296
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/netinet/in.h
+c000000004C5A1A13000000000000539D
+t1280973331
+s21405
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/sys/socket.h
+c000000004C5A1A1300000000000059BC
+t1280973331
+s22972
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/unistd.h
+c000000004B9F135D000000000000563E
+t1268716381
+s22078
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.h
+c000000004C92CE6C00000000000010F8
+t1284689516
+s4344
+i<UIKit/UIKit.h>
+i<Foundation/NSNetServices.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m
+c000000004C9266870000000000003F25
+t1284662919
+s16165
+i"BrowserViewController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.h
+c000000004C88D56100000000000000D4
+t1284035937
+s212
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m
+c000000004C88EA530000000000000328
+t1284041299
+s808
+i"Circle.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.h
+c000000004BC54B0C0000000000000232
+t1271221004
+s562
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m
+c000000004C9385F40000000000000ABE
+t1284736500
+s2750
+i"MyActivityIndicator.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.h
+c000000004C8A32BF00000000000001A9
+t1284125375
+s425
+i<Foundation/Foundation.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m
+c000000004C92482500000000000010B5
+t1284655141
+s4277
+i"MyImageView.h"
+i"Circle.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.h
+c000000004C5B7D00000000000000019D
+t1281064192
+s413
+i<Foundation/Foundation.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m
+c000000004C5B7E310000000000000709
+t1281064497
+s1801
+i"PacketCategories.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.h
+c000000004C8721260000000000000210
+t1283924262
+s528
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m
+c000000004C8797A3000000000000080E
+t1283954595
+s2062
+i"PhotoBoothPad2AppDelegate.h"
+i"PhotoBoothPad2ViewController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.h
+c000000004C87A075000000000000032D
+t1283956853
+s813
+i<UIKit/UIKit.h>
+i"MyImageView.h"
+i"BrowserViewController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m
+c000000004C93863A00000000000028C3
+t1284736570
+s10435
+i"PhotoBoothPad2ViewController.h"
+i"MyImageView.h"
+i"TCPServer.h"
+i"PacketCategories.h"
+i"PickerController.h"
+i<QuartzCore/QuartzCore.h>
+i"MyActivityIndicator.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.h
+c000000004C87B4E70000000000000257
+t1283962087
+s599
+i<UIKit/UIKit.h>
+i"BrowserViewController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m
+c000000004C92CB0B0000000000000C73
+t1284688651
+s3187
+i"PickerController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.h
+c000000004BFD84CA0000000000000E2E
+t1274905802
+s3630
+i<Foundation/Foundation.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m
+c000000004C92644900000000000024F4
+t1284662345
+s9460
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+i<CFNetwork/CFSocketStream.h>
+i"TCPServer.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.h
+c000000004C88EBA900000000000000E8
+t1284041641
+s232
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m
+c000000004C88EBC9000000000000025B
+t1284041673
+s603
+i"TouchScreenLabel.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib
+c000000004C8795DB00000000000050DE
+t1283954139
+s20702
+
+N/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+c000000004C87960B0000000000003E69
+t1283954187
+s15977
+
+N/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch
+c000000004C87212600000000000000C5
+t1283924262
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+t1284736634
+s374
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app.dSYM
+t1284736633
+s102
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/Info.plist
+t1284660067
+s832
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/MainWindow.nib
+t1284130525
+s1137
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2
+t1284736633
+s83308
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2ViewController.nib
+t1284130525
+s764
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PkgInfo
+t1284660067
+s8
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/ResourceRules.plist
+t1284130523
+s485
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision
+t1284130527
+s7298
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/BrowserViewController.o
+t1284689520
+s70028
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/Circle.o
+t1284130527
+s10912
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyActivityIndicator.o
+t1284736633
+s23316
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyImageView.o
+t1284660068
+s26568
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PacketCategories.o
+t1284130527
+s11232
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2.LinkFileList
+c000000004C925B63000000000000059B
+t1284660067
+s1435
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2AppDelegate.o
+t1284689519
+s46104
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2ViewController.o
+t1284736633
+s72492
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PickerController.o
+t1284689520
+s46164
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TCPServer.o
+t1284662698
+s27012
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TouchScreenLabel.o
+t1284130119
+s9620
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/main.o
+t1284130526
+s6428
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent
+t1284660069
+s434
+
+N/Users/engelene/Downloads/PhotoBoothPad2/main.m
+c000000004C8721260000000000000177
+t1283924262
+s375
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Library/MobileDevice/Provisioning Profiles/3119B89E-E75A-475E-923C-A29A1EAE94D3.mobileprovision
+c000000004C82C4560000000000001C00
+t1283638358
+s7168
+
+N/Users/engelene/Library/MobileDevice/Provisioning Profiles/8423C8A4-53E6-4F01-A698-70D22EEB88EE.mobileprovision
+c000000004C82C4560000000000001C82
+t1283638358
+s7298
+
+N/Users/nicnocquee/Library/MobileDevice/Provisioning Profiles/90D00BB9-90C9-4368-9C9C-F4DCB9FFD815.mobileprovision
+c000000004CA0C3C50000000000001C83
+t1285604293
+s7299
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.h
+c000000004C92CE6C00000000000010F8
+t1284689516
+s4344
+i<UIKit/UIKit.h>
+i<Foundation/NSNetServices.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m
+c000000004C9266870000000000003F25
+t1284662919
+s16165
+i"BrowserViewController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.h
+c000000004CB3320900000000000000C5
+t1286812169
+s197
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m
+c000000004CB332230000000000000319
+t1286812195
+s793
+i"Circle.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.h
+c000000004CB330F80000000000000232
+t1286811896
+s562
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m
+c000000004CB331020000000000000ABE
+t1286811906
+s2750
+i"MyActivityIndicator.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.h
+c000000004CB331C300000000000001A1
+t1286812099
+s417
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m
+c000000004CB331CB00000000000010AD
+t1286812107
+s4269
+i"MyImageView.h"
+i"Circle.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.h
+c000000004CB331AC0000000000000195
+t1286812076
+s405
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m
+c000000004CB331B90000000000000701
+t1286812089
+s1793
+i"PacketCategories.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.h
+c000000004CB3310C0000000000000201
+t1286811916
+s513
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m
+c000000004CB3311F00000000000007FF
+t1286811935
+s2047
+i"PhotoBoothPad2AppDelegate.h"
+i"PhotoBoothPad2ViewController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.h
+c000000004CB33133000000000000031E
+t1286811955
+s798
+i<UIKit/UIKit.h>
+i"MyImageView.h"
+i"BrowserViewController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m
+c000000004CB333120000000000002615
+t1286812434
+s9749
+i"PhotoBoothPad2ViewController.h"
+i"MyImageView.h"
+i"TCPServer.h"
+i"PacketCategories.h"
+i"PickerController.h"
+i<QuartzCore/QuartzCore.h>
+i"MyActivityIndicator.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.h
+c000000004CB331DB0000000000000248
+t1286812123
+s584
+i<UIKit/UIKit.h>
+i"BrowserViewController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m
+c000000004CB331F50000000000000C64
+t1286812149
+s3172
+i"PickerController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.h
+c000000004BFD84CA0000000000000E2E
+t1274905802
+s3630
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m
+c000000004C92644900000000000024F4
+t1284662345
+s9460
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+i<CFNetwork/CFSocketStream.h>
+i"TCPServer.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/MainWindow.xib
+c000000004C8795DB00000000000050DE
+t1283954139
+s20702
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+c000000004C87960B0000000000003E69
+t1283954187
+s15977
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch
+c000000004C87212600000000000000C5
+t1283924262
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+t1286816986
+s408
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app.dSYM
+t1286816986
+s102
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/Info.plist
+t1286816971
+s866
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/MainWindow.nib
+t1286816977
+s1137
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2
+t1286816986
+s83388
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2ViewController.nib
+t1286816977
+s764
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PkgInfo
+t1286816971
+s8
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/ResourceRules.plist
+t1286816971
+s485
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision
+t1286816986
+s7299
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/icon.png
+t1286816977
+s2558
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/iphoneipadphotobooth2.png
+t2
+s0
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/BrowserViewController.o
+t1286816984
+s70040
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/Circle.o
+t1286816985
+s10920
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyActivityIndicator.o
+t1286816985
+s23324
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyImageView.o
+t1286816985
+s26576
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PacketCategories.o
+t1286816985
+s11240
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2.LinkFileList
+c000000004CB344CB00000000000005C3
+t1286816971
+s1475
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2AppDelegate.o
+t1286816984
+s46112
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2ViewController.o
+t1286816984
+s72336
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PickerController.o
+t1286816985
+s46172
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TCPServer.o
+t1286816985
+s27020
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/main.o
+t1286816984
+s6436
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent
+t1286816986
+s434
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/icon.png
+c000000004CB343BE000000000000092A
+t1286816702
+s2346
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/iphoneipadphotobooth2.png
+c000000004CB343BE000000000000092A
+t1286816702
+s2346
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/main.m
+c000000004C8721260000000000000177
+t1283924262
+s375
+i<UIKit/UIKit.h>
+
+N/var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch.gch
+t1284130526
+s9421460
+
+N/var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch.gch
+t1286816983
+s9421460
+
+NPhotoBoothPad2-Info.plist
+c000000004CB344880000000000000407
+t1286816904
+s1031
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies308509771#308509771#0(0"0(0#1#0"8647666304#0"0#
+
+CCodeSign /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+s306429433.896774
+e306429434.887265
+r1
+xCodeSign
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+lSLF07#2@48"CodeSign build/Debug-iphoneos/PhotoBoothPad2.app306429433#306429434#0(0"0(0#0#80"/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app8651552960#692"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: nico prananta (3THTC55337)" --resource-rules=/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/ResourceRules.plist --entitlements /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app0#
+
+CCodeSign /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+s308509786.192403
+e308509786.772792
+r1
+xCodeSign
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+lSLF07#2@48"CodeSign build/Debug-iphoneos/PhotoBoothPad2.app308509786#308509786#0(0"0(0#0#84"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app8619066080#708"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: nico prananta (3THTC55337)" --resource-rules=/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/ResourceRules.plist --entitlements /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/BrowserViewController.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306382319.864469
+e306382320.041711
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/BrowserViewController.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m306382319#306382320#0(0"0(0#0#72"/Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m8645721504#1928"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/BrowserViewController.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/BrowserViewController.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509784.724570
+e308509784.908052
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/BrowserViewController.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m308509784#308509784#0(0"0(0#0#76"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m8633124576#1972"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/BrowserViewController.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/Circle.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305823327.240460
+e305823327.298348
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/Circle.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m305823327#305823327#0(0"0(0#0#57"/Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m8634209536#1898"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/Circle.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/Circle.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509785.585021
+e308509785.665826
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/Circle.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m308509785#308509785#0(0"0(0#0#61"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m8638357472#1942"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/Circle.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyActivityIndicator.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306429432.700106
+e306429433.302953
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyActivityIndicator.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m306429432#306429433#0(0"0(0#0#70"/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m8641760608#1924"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyActivityIndicator.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyActivityIndicator.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509785.665936
+e308509785.856575
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyActivityIndicator.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m308509785#308509785#0(0"0(0#0#74"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m8635576992#1968"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyActivityIndicator.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyImageView.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306352867.321310
+e306352868.570434
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyImageView.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m306352867#306352868#0(0"0(0#0#62"/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m8614253216#1908"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyImageView.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyImageView.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509785.260725
+e308509785.440696
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyImageView.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m308509785#308509785#0(0"0(0#0#66"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m8647872352#1952"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/MyImageView.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PacketCategories.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305823327.025015
+e305823327.117164
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PacketCategories.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m305823327#305823327#0(0"0(0#0#67"/Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m8632231328#1918"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PacketCategories.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PacketCategories.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509785.135792
+e308509785.260612
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PacketCategories.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m308509785#308509785#0(0"0(0#0#71"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m8649000096#1962"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PacketCategories.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2AppDelegate.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306382319.757366
+e306382319.864372
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2AppDelegate.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m306382319#306382319#0(0"0(0#0#76"/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m8637283584#1936"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2AppDelegate.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2AppDelegate.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509784.060179
+e308509784.298482
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2AppDelegate.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m308509784#308509784#0(0"0(0#0#80"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m8647791680#1980"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2AppDelegate.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2ViewController.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306429432.675959
+e306429433.346853
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2ViewController.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m306429432#306429433#0(0"0(0#0#79"/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m8646959168#1942"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2ViewController.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2ViewController.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509784.298636
+e308509784.724457
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2ViewController.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m308509784#308509784#0(0"0(0#0#83"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m8647901504#1986"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2ViewController.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PickerController.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306382319.946639
+e306382320.050596
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PickerController.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m306382319#306382320#0(0"0(0#0#67"/Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m8642170464#1918"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PickerController.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PickerController.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509785.440893
+e308509785.584875
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PickerController.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m308509785#308509785#0(0"0(0#0#71"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m8646344576#1962"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PickerController.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TCPServer.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306355498.625697
+e306355498.815907
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TCPServer.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m306355498#306355498#0(0"0(0#0#60"/Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m8635448512#1904"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TCPServer.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TCPServer.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509784.908165
+e308509785.135679
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TCPServer.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m308509784#308509785#0(0"0(0#0#64"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m8622249568#1948"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TCPServer.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TouchScreenLabel.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305822919.732748
+e305822919.796543
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TouchScreenLabel.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m305822919#305822919#0(0"0(0#0#67"/Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m8612888320#1918"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/TouchScreenLabel.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/main.o /Users/engelene/Downloads/PhotoBoothPad2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305823326.752853
+e305823326.817045
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/main.o
+x/Users/engelene/Downloads/PhotoBoothPad2/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/engelene/Downloads/PhotoBoothPad2/main.m305823326#305823326#0(0"0(0#0#47"/Users/engelene/Downloads/PhotoBoothPad2/main.m8628660832#1886"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/main.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/main.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509783.772684
+e308509784.059992
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/main.o
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/main.m308509783#308509784#0(0"0(0#0#51"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/main.m8648789696#1930"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -include /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/main.m -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib
+s305823323.009649
+e305823325.797275
+r1
+xCompileXIB
+x/Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib305823323#305823325#0(0"0(0#0#55"/Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib8632196032#555"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/MainWindow.nib /Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCompileXIB /Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+s305823323.010424
+e305823325.797576
+r1
+xCompileXIB
+x/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+lSLF07#2@43"CompileXIB PhotoBoothPad2ViewController.xib305823323#305823325#0(0"0(0#0#73"/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib8631933952#591"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2ViewController.nib /Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCompileXIB /Volumes/Data/Dropbox/Project/PhotoBoothPad2/MainWindow.xib
+s308509771.736575
+e308509778.145817
+r1
+xCompileXIB
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib308509771#308509778#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#59"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/MainWindow.xib8644354848#567"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/MainWindow.nib /Volumes/Data/Dropbox/Project/PhotoBoothPad2/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCompileXIB /Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+s308509771.738123
+e308509777.167745
+r1
+xCompileXIB
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@43"CompileXIB PhotoBoothPad2ViewController.xib308509771#308509777#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#77"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib8638009568#603"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2ViewController.nib /Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCopyPNGFile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/icon.png icon.png
+s308509777.168172
+e308509777.550432
+r1
+xCopyPNGFile
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/icon.png
+xicon.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/PhotoBoothPad2.app/icon.png icon.png308509777#308509777#0(0"0(0#0#53"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/icon.png8619487424#581"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Data/Dropbox/Project/PhotoBoothPad2/icon.png /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/icon.png0#
+
+CCopyPNGFile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/iphoneipadphotobooth2.png iphoneipadphotobooth2.png
+r0
+
+CCpResource build/Debug-iphoneos/PhotoBoothPad2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+s308509771.616994
+e308509771.736473
+r1
+xCpResource
+xbuild/Debug-iphoneos/PhotoBoothPad2.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist308509771#308509771#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8648379648#499"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app0#
+
+CGenerateDSYMFile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app.dSYM /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2
+s306429433.758337
+e306429433.877452
+r1
+xGenerateDSYMFile
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app.dSYM
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2
+lSLF07#2@116"GenerateDSYMFile build/Debug-iphoneos/PhotoBoothPad2.app.dSYM build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2306429433#306429433#0(0"0(0#0#95"/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad28652814400#389"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2 -o /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app.dSYM0#
+
+CGenerateDSYMFile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app.dSYM /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2
+s308509786.084559
+e308509786.141317
+r1
+xGenerateDSYMFile
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app.dSYM
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2
+lSLF07#2@116"GenerateDSYMFile build/Debug-iphoneos/PhotoBoothPad2.app.dSYM build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2308509786#308509786#0(0"0(0#0#99"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad28646306560#401"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2 -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app.dSYM0#
+
+CLd /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2 normal armv7
+s306429433.346973
+e306429433.758238
+r1
+xLd
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2
+xnormal
+xarmv7
+lSLF07#2@100"Link /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2306429433#306429433#0(0"0(0#0#0"8650420000#889"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -filelist /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad20#
+
+CLd /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2 normal armv7
+s308509785.856680
+e308509786.084410
+r1
+xLd
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2
+xnormal
+xarmv7
+lSLF07#2@104"Link /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad2308509785#308509786#0(0"0(0#0#0"8648914048#909"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -filelist /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/Objects-normal/armv7/PhotoBoothPad2.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PhotoBoothPad20#
+
+CProcessInfoPlistFile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/Info.plist PhotoBoothPad2-Info.plist
+s306352867.266837
+e306352867.297507
+r1
+xProcessInfoPlistFile
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/Info.plist
+xPhotoBoothPad2-Info.plist
+lSLF07#2@33"Process PhotoBoothPad2-Info.plist306352867#306352867#0(0"0(0#0#66"/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2-Info.plist8614215232#598"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PhotoBoothPad2-Info.plist -genpkginfo /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/ResourceRules.plist -o /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/Info.plist0#
+
+CProcessInfoPlistFile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/Info.plist PhotoBoothPad2-Info.plist
+s308509771.618198
+e308509771.653696
+r1
+xProcessInfoPlistFile
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/Info.plist
+xPhotoBoothPad2-Info.plist
+lSLF07#2@33"Process PhotoBoothPad2-Info.plist308509771#308509771#0(0"0(0#0#70"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2-Info.plist8648027968#614"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PhotoBoothPad2-Info.plist -genpkginfo /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/ResourceRules.plist -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/Info.plist0#
+
+CProcessPCH /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch.gch PhotoBoothPad2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305823325.797697
+e305823326.752576
+r1
+xProcessPCH
+x/var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch.gch
+xPhotoBoothPad2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile PhotoBoothPad2_Prefix.pch305823325#305823326#0(0"0(0#0#66"/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch8632380608#1775"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -c /Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch -o /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ajpttffabliwsugpyndyxwijwgco/PhotoBoothPad2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch.gch PhotoBoothPad2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308509778.146108
+e308509783.772400
+r1
+xProcessPCH
+x/var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch.gch
+xPhotoBoothPad2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile PhotoBoothPad2_Prefix.pch308509778#308509783#0(0"0(0#0#70"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch8621371552#1815"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/include -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources/armv7 -I/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/DerivedSources -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch -o /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ciftldnevuhhduglfjgoiutykhqm/PhotoBoothPad2_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/engelene/Library/MobileDevice/Provisioning Profiles/3119B89E-E75A-475E-923C-A29A1EAE94D3.mobileprovision" /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision
+s305823263.005820
+e305823263.054239
+r1
+xProcessProductPackaging
+x/Users/engelene/Library/MobileDevice/Provisioning Profiles/3119B89E-E75A-475E-923C-A29A1EAE94D3.mobileprovision
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/engelene/Library/MobileDevice/Provisioning Profiles/3119B89E-E75A-475E-923C-A29A1EAE94D3.mobileprovision" build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision305823263#305823263#0(0"0(0#0#105"/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision8632281024#437"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/engelene/Library/MobileDevice/Provisioning Profiles/3119B89E-E75A-475E-923C-A29A1EAE94D3.mobileprovision" -o /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/engelene/Library/MobileDevice/Provisioning Profiles/8423C8A4-53E6-4F01-A698-70D22EEB88EE.mobileprovision" /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision
+s305823327.395270
+e305823327.433498
+r1
+xProcessProductPackaging
+x/Users/engelene/Library/MobileDevice/Provisioning Profiles/8423C8A4-53E6-4F01-A698-70D22EEB88EE.mobileprovision
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/engelene/Library/MobileDevice/Provisioning Profiles/8423C8A4-53E6-4F01-A698-70D22EEB88EE.mobileprovision" build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision305823327#305823327#0(0"0(0#0#105"/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision8633856448#437"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/engelene/Library/MobileDevice/Provisioning Profiles/8423C8A4-53E6-4F01-A698-70D22EEB88EE.mobileprovision" -o /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/nicnocquee/Library/MobileDevice/Provisioning Profiles/90D00BB9-90C9-4368-9C9C-F4DCB9FFD815.mobileprovision" /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision
+s308509786.141497
+e308509786.172656
+r1
+xProcessProductPackaging
+x/Users/nicnocquee/Library/MobileDevice/Provisioning Profiles/90D00BB9-90C9-4368-9C9C-F4DCB9FFD815.mobileprovision
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/nicnocquee/Library/MobileDevice/Provisioning Profiles/90D00BB9-90C9-4368-9C9C-F4DCB9FFD815.mobileprovision" build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision308509786#308509786#0(0"0(0#0#109"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision8635711552#447"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/nicnocquee/Library/MobileDevice/Provisioning Profiles/90D00BB9-90C9-4368-9C9C-F4DCB9FFD815.mobileprovision" -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent
+s306352869.533479
+e306352869.557842
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+x/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent
+lSLF07#2@196"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent306352869#306352869#0(0"0(0#0#124"/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent8627903360#457"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent
+s308509786.176397
+e308509786.192319
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent
+lSLF07#2@196"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent308509786#308509786#0(0"0(0#0#128"/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent8619846208#465"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphoneos/PhotoBoothPad2.build/PhotoBoothPad2.xcent0#
+
+CTouch /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+s306429433.877651
+e306429433.896420
+r1
+xTouch
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+lSLF07#2@86"Touch /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app306429433#306429433#0(0"0(0#0#0"8616371200#275"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app0#
+
+CTouch /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+s308509786.172744
+e308509786.176235
+r1
+xTouch
+x/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app
+lSLF07#2@90"Touch /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app308509786#308509786#0(0"0(0#0#0"8633225376#283"    cd /Volumes/Data/Dropbox/Project/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphoneos/PhotoBoothPad2.app0#
+

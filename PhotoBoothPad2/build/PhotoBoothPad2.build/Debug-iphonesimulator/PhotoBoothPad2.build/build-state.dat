@@ -1,0 +1,1113 @@
+TPhotoBoothPad2
+v7
+r0
+t306429305.088144
+cCheck dependencies
+cProcessInfoPlistFile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/Info.plist PhotoBoothPad2-Info.plist
+cCompileXIB /Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib
+cCompileXIB /Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+cProcessPCH /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch.gch PhotoBoothPad2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/main.o /Users/engelene/Downloads/PhotoBoothPad2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2AppDelegate.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2ViewController.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/BrowserViewController.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TCPServer.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PacketCategories.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyImageView.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PickerController.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/Circle.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyActivityIndicator.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2 normal i386
+cGenerateDSYMFile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2
+cTouch /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C494D260000000000000110
+t1279872294
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h
+c000000004BD1CD3500000000000060BB
+t1272040757
+s24763
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNetServices.h
+c000000004BD1FF9F000000000000445B
+t1272053663
+s17499
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004BD1D01E000000000000007D
+t1272041502
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004BD1D06900000000001294B0
+t1272041577
+s1217712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/netinet/in.h
+c00000000476344B700000000000052AA
+t1197687991
+s21162
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/socket.h
+c00000000476344C000000000000055F1
+t1197688000
+s22001
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.h
+c000000004C92CE6C00000000000010F8
+t1284689516
+s4344
+i<UIKit/UIKit.h>
+i<Foundation/NSNetServices.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m
+c000000004C9266870000000000003F25
+t1284662919
+s16165
+i"BrowserViewController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.h
+c000000004C88D56100000000000000D4
+t1284035937
+s212
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m
+c000000004C88EA530000000000000328
+t1284041299
+s808
+i"Circle.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.h
+c000000004BC54B0C0000000000000232
+t1271221004
+s562
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m
+c000000004C9385F40000000000000ABE
+t1284736500
+s2750
+i"MyActivityIndicator.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.h
+c000000004C8A32BF00000000000001A9
+t1284125375
+s425
+i<Foundation/Foundation.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m
+c000000004C92482500000000000010B5
+t1284655141
+s4277
+i"MyImageView.h"
+i"Circle.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.h
+c000000004C5B7D00000000000000019D
+t1281064192
+s413
+i<Foundation/Foundation.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m
+c000000004C5B7E310000000000000709
+t1281064497
+s1801
+i"PacketCategories.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.h
+c000000004C8721260000000000000210
+t1283924262
+s528
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m
+c000000004C8797A3000000000000080E
+t1283954595
+s2062
+i"PhotoBoothPad2AppDelegate.h"
+i"PhotoBoothPad2ViewController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.h
+c000000004C87A075000000000000032D
+t1283956853
+s813
+i<UIKit/UIKit.h>
+i"MyImageView.h"
+i"BrowserViewController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m
+c000000004C93863A00000000000028C3
+t1284736570
+s10435
+i"PhotoBoothPad2ViewController.h"
+i"MyImageView.h"
+i"TCPServer.h"
+i"PacketCategories.h"
+i"PickerController.h"
+i<QuartzCore/QuartzCore.h>
+i"MyActivityIndicator.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.h
+c000000004C87B4E70000000000000257
+t1283962087
+s599
+i<UIKit/UIKit.h>
+i"BrowserViewController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m
+c000000004C92CB0B0000000000000C73
+t1284688651
+s3187
+i"PickerController.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.h
+c000000004BFD84CA0000000000000E2E
+t1274905802
+s3630
+i<Foundation/Foundation.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m
+c000000004C92644900000000000024F4
+t1284662345
+s9460
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+i<CFNetwork/CFSocketStream.h>
+i"TCPServer.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.h
+c000000004C88EBA900000000000000E8
+t1284041641
+s232
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m
+c000000004C88EBC9000000000000025B
+t1284041673
+s603
+i"TouchScreenLabel.h"
+
+N/Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib
+c000000004C8795DB00000000000050DE
+t1283954139
+s20702
+
+N/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+c000000004C87960B0000000000003E69
+t1283954187
+s15977
+
+N/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch
+c000000004C87212600000000000000C5
+t1283924262
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app
+t1284736501
+s238
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM
+t1284736501
+s102
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/Info.plist
+t1284652509
+s697
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/MainWindow.nib
+t1283954214
+s1137
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2
+t1284736501
+s92812
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2ViewController.nib
+t1283954214
+s764
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PkgInfo
+t1284652509
+s8
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/BrowserViewController.o
+t1284736236
+s74876
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/Circle.o
+t1284041301
+s10860
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyActivityIndicator.o
+t1284736501
+s25520
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyImageView.o
+t1284655142
+s28620
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PacketCategories.o
+t1283953329
+s11552
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2.LinkFileList
+c000000004C92457C00000000000005D7
+t1284654460
+s1495
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2AppDelegate.o
+t1284736236
+s46764
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2ViewController.o
+t1284736385
+s76660
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PickerController.o
+t1284736237
+s48096
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TCPServer.o
+t1284736237
+s28344
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TouchScreenLabel.o
+t1284042223
+s9680
+
+N/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/main.o
+t1283953328
+s6308
+
+N/Users/engelene/Downloads/PhotoBoothPad2/main.m
+c000000004C8721260000000000000177
+t1283924262
+s375
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.h
+c000000004C92CE6C00000000000010F8
+t1284689516
+s4344
+i<UIKit/UIKit.h>
+i<Foundation/NSNetServices.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m
+c000000004C9266870000000000003F25
+t1284662919
+s16165
+i"BrowserViewController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.h
+c000000004CB3320900000000000000C5
+t1286812169
+s197
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m
+c000000004CB332230000000000000319
+t1286812195
+s793
+i"Circle.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.h
+c000000004CB330F80000000000000232
+t1286811896
+s562
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m
+c000000004CB331020000000000000ABE
+t1286811906
+s2750
+i"MyActivityIndicator.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.h
+c000000004CB331C300000000000001A1
+t1286812099
+s417
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m
+c000000004CB331CB00000000000010AD
+t1286812107
+s4269
+i"MyImageView.h"
+i"Circle.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.h
+c000000004CB331AC0000000000000195
+t1286812076
+s405
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m
+c000000004CB331B90000000000000701
+t1286812089
+s1793
+i"PacketCategories.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.h
+c000000004CB3310C0000000000000201
+t1286811916
+s513
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m
+c000000004CB3311F00000000000007FF
+t1286811935
+s2047
+i"PhotoBoothPad2AppDelegate.h"
+i"PhotoBoothPad2ViewController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.h
+c000000004CB33133000000000000031E
+t1286811955
+s798
+i<UIKit/UIKit.h>
+i"MyImageView.h"
+i"BrowserViewController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m
+c000000004CB333120000000000002615
+t1286812434
+s9749
+i"PhotoBoothPad2ViewController.h"
+i"MyImageView.h"
+i"TCPServer.h"
+i"PacketCategories.h"
+i"PickerController.h"
+i<QuartzCore/QuartzCore.h>
+i"MyActivityIndicator.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.h
+c000000004CB331DB0000000000000248
+t1286812123
+s584
+i<UIKit/UIKit.h>
+i"BrowserViewController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m
+c000000004CB331F50000000000000C64
+t1286812149
+s3172
+i"PickerController.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.h
+c000000004BFD84CA0000000000000E2E
+t1274905802
+s3630
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m
+c000000004C92644900000000000024F4
+t1284662345
+s9460
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+i<CFNetwork/CFSocketStream.h>
+i"TCPServer.h"
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/MainWindow.xib
+c000000004C8795DB00000000000050DE
+t1283954139
+s20702
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+c000000004C87960B0000000000003E69
+t1283954187
+s15977
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch
+c000000004C87212600000000000000C5
+t1283924262
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app
+t1284736501
+s238
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM
+t1284736501
+s102
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/Info.plist
+t1284652509
+s697
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/MainWindow.nib
+t1283954214
+s1137
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2
+t1284736501
+s92812
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2ViewController.nib
+t1283954214
+s764
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PkgInfo
+t1284652509
+s8
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/BrowserViewController.o
+t1284736236
+s74876
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/Circle.o
+t1284041301
+s10860
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyActivityIndicator.o
+t1284736501
+s25520
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyImageView.o
+t1284655142
+s28620
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PacketCategories.o
+t1283953329
+s11552
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2.LinkFileList
+c000000004C92457C00000000000005D7
+t1284654460
+s1495
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2AppDelegate.o
+t1284736236
+s46764
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2ViewController.o
+t1284736385
+s76660
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PickerController.o
+t1284736237
+s48096
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TCPServer.o
+t1284736237
+s28344
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/main.o
+t1283953328
+s6308
+
+N/Volumes/Data/Dropbox/Project/PhotoBoothPad2/main.m
+c000000004C8721260000000000000177
+t1283924262
+s375
+i<UIKit/UIKit.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.h
+c000000004C92CE6C00000000000010F8
+t1284689516
+s4344
+i<UIKit/UIKit.h>
+i<Foundation/NSNetServices.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m
+c000000004C9266870000000000003F25
+t1284662919
+s16165
+i"BrowserViewController.h"
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/Circle.h
+c000000004CB3320900000000000000C5
+t1286812169
+s197
+i<UIKit/UIKit.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m
+c000000004CB332230000000000000319
+t1286812195
+s793
+i"Circle.h"
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.h
+c000000004CB330F80000000000000232
+t1286811896
+s562
+i<UIKit/UIKit.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m
+c000000004CB344F80000000000000AA6
+t1286817016
+s2726
+i"MyActivityIndicator.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.h
+c000000004CB331C300000000000001A1
+t1286812099
+s417
+i<Foundation/Foundation.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m
+c000000004CB331CB00000000000010AD
+t1286812107
+s4269
+i"MyImageView.h"
+i"Circle.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.h
+c000000004CB331AC0000000000000195
+t1286812076
+s405
+i<Foundation/Foundation.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m
+c000000004CB331B90000000000000701
+t1286812089
+s1793
+i"PacketCategories.h"
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.h
+c000000004CB3310C0000000000000201
+t1286811916
+s513
+i<UIKit/UIKit.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m
+c000000004CB3311F00000000000007FF
+t1286811935
+s2047
+i"PhotoBoothPad2AppDelegate.h"
+i"PhotoBoothPad2ViewController.h"
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.h
+c000000004CB33133000000000000031E
+t1286811955
+s798
+i<UIKit/UIKit.h>
+i"MyImageView.h"
+i"BrowserViewController.h"
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m
+c000000004CB333120000000000002615
+t1286812434
+s9749
+i"PhotoBoothPad2ViewController.h"
+i"MyImageView.h"
+i"TCPServer.h"
+i"PacketCategories.h"
+i"PickerController.h"
+i<QuartzCore/QuartzCore.h>
+i"MyActivityIndicator.h"
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.h
+c000000004CB331DB0000000000000248
+t1286812123
+s584
+i<UIKit/UIKit.h>
+i"BrowserViewController.h"
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m
+c000000004CB331F50000000000000C64
+t1286812149
+s3172
+i"PickerController.h"
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.h
+c000000004BFD84CA0000000000000E2E
+t1274905802
+s3630
+i<Foundation/Foundation.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m
+c000000004C92644900000000000024F4
+t1284662345
+s9460
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+i<CFNetwork/CFSocketStream.h>
+i"TCPServer.h"
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/MainWindow.xib
+c000000004C8795DB00000000000050DE
+t1283954139
+s20702
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+c000000004C87960B0000000000003E69
+t1283954187
+s15977
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch
+c000000004C87212600000000000000C5
+t1283924262
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app
+t1286849922
+s238
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM
+t1286849805
+s102
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/Info.plist
+t1284652509
+s697
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/MainWindow.nib
+t1283954214
+s1137
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2
+t1284736501
+s92812
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2ViewController.nib
+t1283954214
+s764
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PkgInfo
+t1284652509
+s8
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/icon.png
+t2
+s0
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/BrowserViewController.o
+t1284736236
+s74876
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/Circle.o
+t1284041301
+s10860
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyActivityIndicator.o
+t1284736501
+s25520
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyImageView.o
+t1284655142
+s28620
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PacketCategories.o
+t1283953329
+s11552
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2.LinkFileList
+c000000004C92457C00000000000005D7
+t1284654460
+s1495
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2AppDelegate.o
+t1284736236
+s46764
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2ViewController.o
+t1284736385
+s76660
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PickerController.o
+t1284736237
+s48096
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TCPServer.o
+t1284736237
+s28344
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/main.o
+t1283953328
+s6308
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/icon.png
+c000000004CB343BE000000000000092A
+t1286816702
+s2346
+
+N/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/main.m
+c000000004C8721260000000000000177
+t1283924262
+s375
+i<UIKit/UIKit.h>
+
+N/var/folders/41/41fJ3qkGFHuBnCl9VQYhaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-efrjszwpjnxsonetkfddtzrvafsn/PhotoBoothPad2_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch.gch
+t1283953328
+s13825936
+
+N/var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ayvxozmcywbawugbtpimpowlmsas/PhotoBoothPad2_Prefix.pch.gch
+t2
+s0
+
+NPhotoBoothPad2-Info.plist
+c000000004CB344880000000000000407
+t1286816904
+s1031
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies306429305#306429305#0(0"0(0#1#0"8645992224#0"0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/BrowserViewController.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/BrowserViewController.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306429036.788784
+e306429037.017177
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/BrowserViewController.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m306429036#306429037#0(0"0(0#0#72"/Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m8647207232#2105"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/BrowserViewController.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/BrowserViewController.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/BrowserViewController.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/BrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/Circle.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/Circle.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305734101.771613
+e305734101.823997
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/Circle.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m305734101#305734101#0(0"0(0#0#57"/Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m8607116832#2075"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/Circle.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/Circle.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/Circle.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyActivityIndicator.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyActivityIndicator.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306429301.478704
+e306429301.564930
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyActivityIndicator.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m306429301#306429301#0(0"0(0#0#70"/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m8641958144#2101"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyActivityIndicator.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyActivityIndicator.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyActivityIndicator.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyActivityIndicator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyImageView.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyImageView.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306347942.087571
+e306347942.274216
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyImageView.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m306347942#306347942#0(0"0(0#0#62"/Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m8627383808#2085"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/MyImageView.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyImageView.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/MyImageView.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/MyImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PacketCategories.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PacketCategories.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305646129.044415
+e305646129.140025
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PacketCategories.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m305646129#305646129#0(0"0(0#0#67"/Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m8608546240#2095"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/PacketCategories.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PacketCategories.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PacketCategories.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PacketCategories.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2AppDelegate.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2AppDelegate.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306429035.687906
+e306429036.788684
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2AppDelegate.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m306429035#306429036#0(0"0(0#0#76"/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m8649206368#2113"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2AppDelegate.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2AppDelegate.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2ViewController.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2ViewController.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306429184.855612
+e306429185.012789
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2ViewController.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m306429184#306429185#0(0"0(0#0#79"/Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m8645934528#2119"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2ViewController.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2ViewController.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PhotoBoothPad2ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PickerController.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PickerController.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306429037.017681
+e306429037.103011
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PickerController.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m306429037#306429037#0(0"0(0#0#67"/Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m8642289152#2095"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/PickerController.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PickerController.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PickerController.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/PickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TCPServer.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TCPServer.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306429036.987321
+e306429037.209251
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TCPServer.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m306429036#306429037#0(0"0(0#0#60"/Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m8644562432#2081"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/TCPServer.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TCPServer.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TCPServer.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/Classes/TCPServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TouchScreenLabel.o /Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305735022.983914
+e305735023.070574
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TouchScreenLabel.o
+x/Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m305735022#305735023#0(0"0(0#0#67"/Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m8619473568#2095"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/Classes/TouchScreenLabel.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/TouchScreenLabel.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/main.o "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/main.o /Users/engelene/Downloads/PhotoBoothPad2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305646128.653636
+e305646128.841143
+r1
+xCompileC
+xbuild/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/main.o
+x/Users/engelene/Downloads/PhotoBoothPad2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/engelene/Downloads/PhotoBoothPad2/main.m305646128#305646128#0(0"0(0#0#47"/Users/engelene/Downloads/PhotoBoothPad2/main.m8608434656#2063"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -include /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch -c /Users/engelene/Downloads/PhotoBoothPad2/main.m -o /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/main.o0#
+
+CCompileC build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/main.o /Volumes/Data/Dropbox/Project/PhotoBoothPad2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib"
+r0
+
+CCompileXIB /Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib
+s305647014.013035
+e305647014.473921
+r1
+xCompileXIB
+x/Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib305647014#305647014#0(0"0(0#0#55"/Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib8624424352#583"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/MainWindow.nib /Users/engelene/Downloads/PhotoBoothPad2/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+s305647014.013813
+e305647014.475580
+r1
+xCompileXIB
+x/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+lSLF07#2@43"CompileXIB PhotoBoothPad2ViewController.xib305647014#305647014#0(0"0(0#0#73"/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib8624304416#619"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2ViewController.nib /Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2ViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Volumes/Data/Dropbox/Project/PhotoBoothPad2/MainWindow.xib
+r0
+
+CCompileXIB /Volumes/Data/Dropbox/Project/PhotoBoothPad2/PhotoBoothPad2ViewController.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/PhotoBoothPad2.app/icon.png icon.png
+r0
+
+CGenerateDSYMFile "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM" "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2"
+r0
+
+CGenerateDSYMFile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2
+s306429301.596876
+e306429301.627906
+r1
+xGenerateDSYMFile
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2306429301#306429301#0(0"0(0#0#102"/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad28635221088#410"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2 -o /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM0#
+
+CGenerateDSYMFile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app.dSYM /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2
+r0
+
+CLd "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2" normal i386
+r0
+
+CLd /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2 normal i386
+s306429301.565038
+e306429301.596778
+r1
+xLd
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2
+xnormal
+xi386
+lSLF07#2@107"Link /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2306429301#306429301#0(0"0(0#0#0"8638718816#967"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -filelist /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/Objects-normal/i386/PhotoBoothPad2.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad20#
+
+CLd /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PhotoBoothPad2 normal i386
+r0
+
+CProcessInfoPlistFile "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/Info.plist" PhotoBoothPad2-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/Info.plist PhotoBoothPad2-Info.plist
+s306345309.189589
+e306345309.245401
+r1
+xProcessInfoPlistFile
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/Info.plist
+xPhotoBoothPad2-Info.plist
+lSLF07#2@33"Process PhotoBoothPad2-Info.plist306345309#306345309#0(0"0(0#0#66"/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2-Info.plist8608891328#506"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PhotoBoothPad2-Info.plist -genpkginfo /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/Info.plist0#
+
+CProcessInfoPlistFile /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app/Info.plist PhotoBoothPad2-Info.plist
+r0
+
+CProcessPCH /var/folders/41/41fJ3qkGFHuBnCl9VQYhaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-efrjszwpjnxsonetkfddtzrvafsn/PhotoBoothPad2_Prefix.pch.gch PhotoBoothPad2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch.gch PhotoBoothPad2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s305646127.682582
+e305646128.653438
+r1
+xProcessPCH
+x/var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch.gch
+xPhotoBoothPad2_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile PhotoBoothPad2_Prefix.pch305646127#305646128#0(0"0(0#0#66"/Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch8608877952#1946"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-generated-files.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-own-target-headers.hmap -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-all-target-headers.hmap -iquote /Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/PhotoBoothPad2-project-headers.hmap -F/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator -I/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/include -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources/i386 -I/Users/engelene/Downloads/PhotoBoothPad2/build/PhotoBoothPad2.build/Debug-iphonesimulator/PhotoBoothPad2.build/DerivedSources -c /Users/engelene/Downloads/PhotoBoothPad2/PhotoBoothPad2_Prefix.pch -o /var/folders/5S/5Sve0TF6Gy05BLyizk79uk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-cqmzudylxzctoeajzkfqendiqzez/PhotoBoothPad2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/a9/a9XsgbI+Ed4x2ZQkcx6+9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhotoBoothPad2_Prefix-ayvxozmcywbawugbtpimpowlmsas/PhotoBoothPad2_Prefix.pch.gch PhotoBoothPad2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Volumes/Macintosh HD 2/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app"
+r0
+
+CTouch /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app
+s306429301.627993
+e306429301.630665
+r1
+xTouch
+x/Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app
+lSLF07#2@93"Touch /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app306429301#306429301#0(0"0(0#0#0"8652366112#289"    cd /Users/engelene/Downloads/PhotoBoothPad2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/engelene/Downloads/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app0#
+
+CTouch /Volumes/Data/Dropbox/Project/PhotoBoothPad2/build/Debug-iphonesimulator/PhotoBoothPad2.app
+r0
+

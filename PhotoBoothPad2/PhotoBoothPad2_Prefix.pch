@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'PhotoBoothPad2' target in the 'PhotoBoothPad2' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

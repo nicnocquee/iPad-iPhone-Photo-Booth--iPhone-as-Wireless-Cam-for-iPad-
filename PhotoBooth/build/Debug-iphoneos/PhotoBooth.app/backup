@@ -1,0 +1,87 @@
+
+- (void) didCaptureOutputWithImageBuffer:(CVImageBufferRef)imageBuffer{
+	CVPixelBufferLockBaseAddress(imageBuffer,0);
+	void *baseAddress = (uint8_t *)CVPixelBufferGetBaseAddress(imageBuffer);
+	size_t bytesPerRow = CVPixelBufferGetBytesPerRow(imageBuffer); 
+	size_t height = CVPixelBufferGetHeight(imageBuffer);
+	size_t width = CVPixelBufferGetWidth(imageBuffer);
+	CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB(); 
+	if (!colorSpace) 
+    {
+        NSLog(@"CGColorSpaceCreateDeviceRGB failure");
+        //return nil;
+    }
+	
+    // Get the data size for contiguous planes of the pixel buffer.
+    size_t bufferSize = CVPixelBufferGetDataSize(imageBuffer); 
+	
+    // Create a Quartz direct-access data provider that uses data we supply
+    CGDataProviderRef provider = CGDataProviderCreateWithData(NULL, baseAddress, bufferSize, 
+															  NULL);
+    // Create a bitmap image from data supplied by our data provider
+    CGImageRef cgImage = 
+	CGImageCreate(width,
+				  height,
+				  8,
+				  32,
+				  bytesPerRow,
+				  colorSpace,
+				  kCGImageAlphaNoneSkipFirst | kCGBitmapByteOrder32Little,
+				  provider,
+				  NULL,
+				  true,
+				  kCGRenderingIntentDefault);
+    CGDataProviderRelease(provider);
+    CGColorSpaceRelease(colorSpace);
+	
+    // Create and return an image object representing the specified Quartz image
+    UIImage *image = [UIImage imageWithCGImage:cgImage];
+    CGImageRelease(cgImage);
+	/*
+    CGContextRef newContext = CGBitmapContextCreate(baseAddress, width, height, 8, bytesPerRow, colorSpace, kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedFirst); 
+    CGImageRef newImage = CGBitmapContextCreateImage(newContext); 
+	We unlock the  image buffer
+	CVPixelBufferUnlockBaseAddress(imageBuffer,0);*/
+	
+    /*We release some components
+    CGContextRelease(newContext); 
+    CGColorSpaceRelease(colorSpace);*/
+	
+	/*We display the result on the image view (We need to change the orientation of the image so that the video is displayed correctly)*/
+	//UIImage *image= [UIImage imageWithCGImage:newImage scale:1.0 orientation:UIImageOrientationRight];
+	if (image) {
+		[self.imageView setImage:image];
+		[self.imageView setNeedsDisplay];
+	} else {
+		NSLog(@"no image here");
+	}
+
+	
+	
+	/*We relase the CGImageRef*/
+	//CGImageRelease(newImage);
+	
+	/*NSUInteger length = height*bytesPerRow;
+	NSLog(@"Sending %d bytes", length);
+	NSLog(@"Height = %d", height);
+	NSLog(@"Width = %d", width);
+	NSLog(@"Bytes per row = %d", bytesPerRow);*/
+	
+	NSError *err;
+	//NSData *dat = [NSData dataWithBytes:imageBuffer length:height*bytesPerRow];
+	NSData *dat = UIImagePNGRepresentation(image);
+	//NSLog(@"Size of the image: %d bytes", [dat length]);
+	if (_outStream) [self sendData:dat error:&err];
+	//CGImageRelease(newImage);
+	//CVPixelBufferUnlockBaseAddress(imageBuffer,0);
+	//if (_outStream && [_outStream hasSpaceAvailable]){
+		/*int len = [_outStream write:&length maxLength:sizeof(uint8_t)];
+		NSLog(@"Writing %d bytes", len);
+		if(len == -1){
+			[self _showAlert:@"Failed sending data to peer"];
+		}*/
+		/*if([_outStream write:(const uint8_t *)imageBuffer maxLength:length] == -1){
+			[self _showAlert:@"Failed sending data to peer"];
+		}*/
+	//}
+}
