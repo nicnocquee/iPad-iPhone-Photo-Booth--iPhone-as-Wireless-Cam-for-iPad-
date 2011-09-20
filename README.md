@@ -5,5 +5,3 @@ I made this app for my wedding reception party. Since iPad has no camera yet, I 
 I used s7ftprequest to upload the photo taken by the iPhone to the FTP server. You can find it [here](http://code.google.com/p/s7ftprequest/)
 
 I released this source code not only so that anyone who wants to know how to make this kind of app can learn from it, but also so that I can learn from those who are kind enough to fix and make the code better. Hope it's useful!
-
-More info [http://www.nicnocquee.com/blog/2010/10/12/using-ipad-and-iphone-as-a-party-photo-booth/](http://www.nicnocquee.com/blog/2010/10/12/using-ipad-and-iphone-as-a-party-photo-booth/)
